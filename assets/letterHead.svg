@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 5462 882" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.33333,0,0,1.33333,0,0)">
+        <g id="Artboard2" transform="matrix(1,0,0,0.161484,0,0)">
+            <rect x="0" y="0" width="4096" height="4096" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="4096" height="4096"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="logo" transform="matrix(2.88179,0,0,17.8457,-855.804,-5142.55)">
+                    <g transform="matrix(0.220189,0,-0.0491554,0.220189,1347.84,162.049)">
+                        <path d="M1240.16,592.01L1240.16,1440.33L1260.27,1440.33C1260.27,1440.33 1252.23,1290.97 1251.36,1257.4C1251.19,1251.13 1251.35,1242.61 1255.02,1238.93C1258.69,1235.24 1267.2,1234.43 1273.39,1235.29C1306.95,1239.92 1456.42,1266.74 1456.42,1266.74C1456.42,1266.74 1437.94,1219.97 1433.75,1207.85C1432.21,1203.43 1430.75,1197.96 1431.24,1194.03C1431.69,1190.32 1433.81,1186.62 1436.67,1184.23C1470.42,1156.08 1633.69,1025.13 1633.69,1025.13C1633.69,1025.13 1601.96,1010.51 1593.37,1006.04C1589.36,1003.95 1583.75,1002.4 1582.2,998.302C1580.65,994.199 1582.47,986.851 1584.08,981.423C1590.59,959.427 1621.27,866.324 1621.27,866.324C1621.27,866.324 1530.2,885.914 1509.98,890.081C1506.68,890.76 1503.15,892.408 1499.97,891.322C1496.74,890.221 1492.45,887.102 1490.6,883.472C1485.44,873.32 1468.98,830.413 1468.98,830.413C1468.98,830.413 1399.21,911.644 1381.25,927.923C1376.29,932.414 1365.66,930.685 1361.18,928.087C1356.71,925.489 1353.47,917.976 1354.4,912.336C1360.92,872.896 1400.34,691.446 1400.34,691.446C1400.34,691.446 1344.28,725.734 1330.65,732.742C1327.04,734.595 1321.94,734.59 1318.51,733.496C1315.08,732.402 1311.86,729.442 1310.05,726.18C1296.99,702.599 1240.16,592.01 1240.16,592.01Z" style="fill:rgb(200,0,0);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-9.35036,-186.246)">
+                        <g transform="matrix(200,0,0,200,1197.06,626.44)">
+                        </g>
+                        <g transform="matrix(200,0,0,200,1267.46,626.44)">
+                        </g>
+                        <g transform="matrix(200,0,0,200,1563.66,626.44)">
+                        </g>
+                        <text x="300.662px" y="626.44px" style="font-family:'HelveticaNeue-BoldItalic', 'Helvetica Neue';font-weight:700;font-style:italic;font-size:200px;">T<tspan x="400.662px 519.262px " y="626.44px 626.44px ">ot</tspan>al Rooﬁng</text>
+                    </g>
+                    <g transform="matrix(0.317476,0,0,0.317476,1332.3,10.5779)">
+                        <text x="1000.06px" y="1042.45px" style="font-family:'HelveticaNeue-BoldItalic', 'Helvetica Neue';font-weight:700;font-style:italic;font-size:200px;">™</text>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,6.19258,-295.276,90.5065)">
+                    <g transform="matrix(100,0,0,100,2284.92,523.767)">
+                    </g>
+                    <text x="295.276px" y="523.767px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:rgb(99,99,99);">4660 Blackcomb W<tspan x="1153.04px 1208.65px 1251.23px 1279.02px " y="523.767px 523.767px 523.767px 523.767px ">ay, </tspan>Whistler<tspan x="1662.41px 1690.2px " y="523.767px 523.767px ">, </tspan>BC, V0N1B4</text>
+                </g>
+                <g transform="matrix(1,0,0,6.19258,764.046,1056.19)">
+                    <g transform="matrix(100,0,0,100,2364.09,367.825)">
+                    </g>
+                    <text x="1741.33px" y="367.825px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;fill:rgb(99,99,99);">250-522-0219</text>
+                </g>
+                <g transform="matrix(2.16747,0,0,8.95393,-640,-1329.55)">
+                    <rect x="295.276" y="563.876" width="1889.76" height="30.044" style="stroke:rgb(215,43,39);stroke-width:0.54px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
