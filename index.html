@@ -57,19 +57,35 @@
 </head>
 
 <header style="
-    background-color: red;
+    background-color:var(--red);
     color: white;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    padding-top:0.5em;
 ">
-    <img src="./assets/letterHead.svg" style="filter:invert(1);">
-    <a link="tel:1-(250)-522-0216">
-        <span> Phone </span>
-        <img src="./assets/mailIcon.svg" alt="mail icon by Reine Yurkowski" style="height:1.5em;">
+    <a style="margin:auto;">
+        <img src="./assets/aprMinimized.svg"
+            style="filter:grayscale(1) contrast(100) invert(1); height:1.8em; margin:auto;">
     </a>
-    <a link=" mailto:allproroofingbc@gmail.com">
-        <span> Email </span>
-        <img src="./assets/mailIcon.svg" alt="mail icon by Reine Yurkowski" style="height:1.5em;">
+    <a link="tel:1-(250)-522-0216" target="_blank" style="
+            cursor:pointer;
+            display: flex;
+            font-weight:400;
+            justify-content: center;
+        ">
+        <img src="./assets/phone.svg" alt="mail icon by Reine Yurkowski"
+            style="height:1.4em; transform:translateY(+0.15em) scaleX(-1);">
+        <span style="position: relative; transform:translateY(+0.4em); color:white;"> Phone </span>
+    </a>
+    <a link="mailto:allproroofingbc@gmail.com" target="_blank" style="
+            cursor:pointer;
+            display: flex;
+            font-weight:400;
+            justify-content: center;
+        ">
+        <img src="./assets/mailIcon2.svg" alt="mail icon by Reine Yurkowski"
+            style="height:1.5em; filter:invert(1); transform:translateX(-0.2em) translateY(+0.1em);">
+        <span style="position: relative; transform:translateY(+0.4em); color:white;"> Email </span>
     </a>
 </header>
 
@@ -77,6 +93,7 @@
 
 <body>
 
+    <!-- TODO: delete me -->
     <div>
         <input type="checkbox" id="killSwitch">
         KILL RELOADING
@@ -100,6 +117,12 @@
 </html>
 
 <style>
+    :root {
+        --black: #111;
+        --red: #dd0000;
+        --white: #ddd;
+    }
+
     * {
         font-family: sans-serif;
         margin: 0;
@@ -107,8 +130,8 @@
     }
 
     body {
-        background-color: black;
-        color: white;
+        background-color: var(--black);
+        color: var(--white);
     }
 
     body {
@@ -122,11 +145,11 @@
     }
 
     :link {
-        color: white;
+        color: var(--white);
     }
 
     :visited {
-        color: white;
+        color: var(--white);
     }
 </style>
 
