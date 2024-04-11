@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- ################################################################## -->
+<!--                             HEADER                                 -->
+<!-- ################################################################## -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,45 +60,51 @@
     <title> All Pro Roofing</title>
 </head>
 
-<header style="
+<!-- ################################################################## -->
+<!--                             HEADER                                 -->
+<!-- ################################################################## -->
+
+<nav style="
     background-color:var(--red);
     color: white;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
     padding-top:0.5em;
 ">
-    <a style="margin:auto;">
+    <div style="margin:auto;">
         <img src="./assets/aprMinimized.svg"
             style="filter:grayscale(1) contrast(100) invert(1); height:1.8em; margin:auto;">
-    </a>
-    <a link="tel:1-(250)-522-0216" target="_blank" style="
+    </div>
+    <a href="tel:1-(250)-522-0216" target="_blank" style="
             cursor:pointer;
             display: flex;
             font-weight:400;
             justify-content: center;
         ">
         <img src="./assets/phone.svg" alt="mail icon by Reine Yurkowski"
-            style="height:1.4em; transform:translateY(+0.15em) scaleX(-1);">
-        <span style="position: relative; transform:translateY(+0.4em); color:white;"> Phone </span>
+            style="height:1.4em; transform:translateY(+0.15em) scaleX(-1); user-select:none;">
+        <span style="position: relative; transform:translateY(+0.4em); color:white;user-select:none;"> Phone </span>
     </a>
-    <a link="mailto:allproroofingbc@gmail.com" target="_blank" style="
+    <a href="mailto:allproroofingbc@gmail.com" target="_blank" style="
             cursor:pointer;
             display: flex;
             font-weight:400;
             justify-content: center;
         ">
         <img src="./assets/mailIcon2.svg" alt="mail icon by Reine Yurkowski"
-            style="height:1.5em; filter:invert(1); transform:translateX(-0.2em) translateY(+0.1em);">
-        <span style="position: relative; transform:translateY(+0.4em); color:white;"> Email </span>
+            style="height:1.5em; filter:invert(1); transform:translateX(-0.2em) translateY(+0.1em); user-select:none;">
+        <span style="position: relative; transform:translateY(+0.4em); color:white;user-select:none;"> Email </span>
     </a>
-</header>
+</nav>
 
-<hr />
+<!-- ################################################################## -->
+<!--                              BODY                                  -->
+<!-- ################################################################## -->
 
 <body>
 
     <!-- TODO: delete me -->
-    <div>
+    <div style="position:absolute; top:0px; left:0px; background-color:blue; padding:0.5em;">
         <input type="checkbox" id="killSwitch">
         KILL RELOADING
         </input>
@@ -106,12 +116,44 @@
 
 </body>
 
-<hr />
 
-<footer>
+<!-- ################################################################## -->
+<!--                             FOOTER                                 -->
+<!-- ################################################################## -->
 
-    <h3> this is the footer</h3>
+<footer style="
+    background-color: var(--red);
+    color: var(--black);
+    padding:0.5em;
+    position:absolute;
+        bottom:0px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    width: 100%;
+    ">
+    <div style="display:flex; justify-content:center;">
+        <img src="./assets/aprMinimized.svg" style="filter:grayscale(1) contrast(100) invert(1);">
+    </div>
+    <div style="display:flex; flex-direction:column; justify-content:space-around;">
+        <ul style="list-style:none;">
+            <li style="padding:1em;">phone: <a href="tel:1-(250)-522-0216" style="font-weight:bolder;">
+                    1-(250)-522-0216 </a></li>
+            <li style="padding:1em;">email: <a href="mailto:AllProRoofingBC@gmail.com" style="
+                    font-weight:bolder;"> AllProRoofingBC@gmail.com
+                </a></li>
+        </ul>
+    </div>
+    <div>
+        <div style="display:flex; flex-direction: row;">
+            <div style="display:flex; flex-direction:column; justify-content:center;">
+                <p style="color:var(--white); text-align:right;"> our sister company has been in critial aclaim since
+                    2011!
+                </p>
+            </div>
 
+            <img src="./assets/2011B_award-REMAKE.svg">
+        </div>
+    </div>
 </footer>
 
 </html>
@@ -119,13 +161,14 @@
 <style>
     :root {
         --black: #111;
-        --red: #dd0000;
-        --white: #ddd;
+        --red: #990022;
+        --white: #eee;
     }
 
     * {
         font-family: sans-serif;
         margin: 0;
+        overflow: hidden;
         padding: 0;
     }
 
@@ -138,7 +181,7 @@
         padding-bottom: 1rem;
     }
 
-    header>* {
+    nav>* {
         min-height: 1.5em;
         font-weight: bolder;
         font-size: xx-large;
@@ -150,6 +193,18 @@
 
     :visited {
         color: var(--white);
+    }
+
+    @media only screen and (max-width: 480px) {
+        footer>div>img {
+            height: 0px;
+            width: 0px;
+        }
+
+        footer>div>div>* {
+            height: 0px;
+            width: 0px;
+        }
     }
 </style>
 
