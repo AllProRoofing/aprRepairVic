@@ -69,6 +69,8 @@
     color: white;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    position:sticky;
+    top:0px;
     padding-top:0.5em;
 ">
     <div style="margin:auto;">
@@ -104,16 +106,60 @@
 <body>
 
     <!-- TODO: delete me -->
-    <div style="position:absolute; top:0px; left:0px; background-color:blue; padding:0.5em;">
+    <div
+        style="position:sticky; top:0px; left:0px; background-color:blue; padding:0.5em; margin:0px; width:min-content; ">
         <input type="checkbox" id="killSwitch">
         KILL RELOADING
         </input>
     </div>
 
-    <h2> this is the body</h2>
+    <header style="padding: 2em; text-align: center;">
+        <h1>Welcome to All Pro Roofing</h1>
+        <p>A trusted roofing company specializing in repair services in Victoria for over 40 years</p>
+    </header>
 
-    <p> this is a body para</p>
+    <section id="about" style="padding: 3em;">
+        <h2>About Us</h2>
+        <p>All Pro Roofing has been a staple in Victoria's roofing industry for over 40 years, focusing primarily on
+            roof repair services. Our long-standing presence in the community is a testament to our commitment to
+            quality craftsmanship and customer satisfaction. Over the years, we have built a solid reputation for
+            excellence, earning high praise from our clients and industry peers alike.</p>
+    </section>
 
+    <section id="services" style="padding: 3em;">
+        <h2>Our Roof Repair Services</h2>
+        <p>At All Pro Roofing, we specialize in a wide range of roof repair services tailored to meet the unique needs
+            of our customers. Whether your roof has suffered storm damage, leaks, or general wear and tear, our team of
+            skilled professionals is equipped to handle any repair job, big or small. Our services include:</p>
+        <ul style="list-style-type: disc; padding-left: 2em;">
+            <li>Fixing leaks and water damage</li>
+            <li>Replacing damaged or missing shingles</li>
+            <li>Repairing flashing and sealant</li>
+            <li>Resolving issues with gutters and downspouts</li>
+            <!-- Add more repair services as needed -->
+        </ul>
+    </section>
+
+    <section id="materials" style="padding: 3em;">
+        <h2>Quality Materials</h2>
+        <p>At All Pro Roofing, we believe in using only the highest quality materials for all our repair projects. We
+            understand that the longevity and durability of your roof depend on the materials used, which is why we
+            source our materials from trusted suppliers known for their reliability and performance. Some of the
+            materials we commonly use for roof repairs include:</p>
+        <ul style="list-style-type: disc; padding-left: 2em;">
+            <li>Durable asphalt shingles</li>
+            <li>Long-lasting metal roofing components</li>
+            <li>Traditional and stylish tile roofing options</li>
+            <li>Natural and rustic wood shake materials</li>
+            <!-- Add more materials as needed -->
+        </ul>
+    </section>
+
+    <section id="reviews" style="padding: 3em;">
+        <h2>Customer Reviews</h2>
+        <p>Read what our satisfied customers have to say about our roof repair services:</p>
+        <!-- Include customer reviews or testimonials here -->
+    </section>
 </body>
 
 
@@ -125,11 +171,10 @@
     background-color: var(--red);
     color: var(--black);
     padding:0.5em;
-    position:absolute;
-        bottom:0px;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
-    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    overflow:hidden;
+    max-width: 100vw;
     ">
     <div style="display:flex; justify-content:center;">
         <img src="./assets/aprMinimized.svg" style="filter:grayscale(1) contrast(100) invert(1);">
@@ -151,7 +196,7 @@
                 </p>
             </div>
 
-            <img src="./assets/2011B_award-REMAKE.svg">
+            <img src="./assets/2011B_award-REMAKE.svg" style="padding:1em; margin:auto;max-width:60%;">
         </div>
     </div>
 </footer>
@@ -168,7 +213,6 @@
     * {
         font-family: sans-serif;
         margin: 0;
-        overflow: hidden;
         padding: 0;
     }
 
@@ -185,6 +229,7 @@
         min-height: 1.5em;
         font-weight: bolder;
         font-size: xx-large;
+        overflow: hidden;
     }
 
     :link {
@@ -203,6 +248,7 @@
 
         footer>div>div>* {
             height: 0px;
+            overflow: hidden;
             width: 0px;
         }
     }
